@@ -51,33 +51,52 @@ input:focus {
 }
 
 table{
-    border: 2px solid #000000;
+  border-collapse: collapse;
+  border: 2px solid #000000;
 }
 
 .colhead{
-  background-color: #7e0830;
+  min-width: 125px;
+  padding: 10px;
+  background-color: #7e0820;
   color: #FFFFFF;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .rowhead{
-
+  border-right: 2px #000000;
+  border-left: 2px #000000;
 }
 
 td{
-  
+  border-top: 2px solid #000000;
+  padding: 10px;
 }
 
 tr{
 
 }
 
+tr:hover{
+  background: rgba(126, 8, 32, 0.25);
+}
+
+tr:nth-child(even){
+  background: #d1d1d1;
+}
+
 *{
 
 }
 
-thead tr:first-child th:first-child{}
+thead tr:first-child th:first-child{
+
+}
 
 footer{
+  position: absolute;
+  min-height: 75px;
   width:100%;
   background:#000000;
   text-align:center;
