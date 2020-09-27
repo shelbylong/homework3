@@ -67,8 +67,8 @@ td{
   padding: 10px;
 }
 
-th.rowhead{
-  border-right: 2px #000000;
+th, td{
+  text-align: center;
 }
 
 th.colhead{
@@ -82,8 +82,8 @@ th.colhead{
   margin: auto;
 }
 
-th, td{
-  text-align: center;
+th.rowhead{
+  border-right: 2px #000000;
 }
 
 tr:nth-child(even){
@@ -99,10 +99,11 @@ tr:hover{
   color: #417243;
 }
 
-tfoot tr:last-child td:first-child {
+tr:last-child td:first-child {
   border-bottom-left-radius: 10px;
 }
-tfoot tr:last-child td:last-child {
+
+tr:last-child td:last-child {
   border-bottom-right-radius: 10px;
 } 
 
@@ -113,6 +114,6 @@ footer{
   background:#000000;
   text-align:center;
   color: #FFFFFF;
-  padding-left: 0px;
-  padding-bottom: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
 }
