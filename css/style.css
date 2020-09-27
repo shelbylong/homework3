@@ -46,12 +46,16 @@ a{
   text-decoration: underline wavy;
 }
 
+th.rowhead{
+    border-right: 2px solid #000000;
+}
+
 table{
   border-collapse: separate;
-  border: 2px solid #000000;
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
+  border: 2px solid #000000;
 }
 
 th:first-child {
@@ -63,12 +67,7 @@ th:last-child {
 }
 
 td{
-  border-top: 2px solid #000000;
   padding: 10px;
-}
-
-th, td{
-  text-align: center;
 }
 
 th.colhead{
@@ -82,8 +81,8 @@ th.colhead{
   margin: auto;
 }
 
-th.rowhead{
-  border-right: 2px #000000;
+th, td{
+  text-align: center;
 }
 
 tr:nth-child(even){
@@ -99,11 +98,10 @@ tr:hover{
   color: #417243;
 }
 
-tr:last-child td:first-child {
+tfoot tr:last-child td:first-child {
   border-bottom-left-radius: 10px;
 }
-
-tr:last-child td:last-child {
+tfoot tr:last-child td:last-child {
   border-bottom-right-radius: 10px;
 } 
 
@@ -114,6 +112,6 @@ footer{
   background:#000000;
   text-align:center;
   color: #FFFFFF;
-  margin-left: 0px;
-  margin-bottom: 0px;
+  left: 0px;
+  bottom: 0px;
 }
