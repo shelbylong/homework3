@@ -15,6 +15,7 @@ body{
   background-image: url("../images/pigeon-background.JPEG");
   background-size: cover;
   background-position: center;
+  background-color:#DDDDDD;
 }
 
 main{
@@ -45,7 +46,7 @@ a{
   text-decoration: underline wavy;
 }
 
-input:focus {
+input:focus{
   border: 3px dashed;
   color: #417243;
 }
