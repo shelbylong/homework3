@@ -71,6 +71,7 @@ tbody{
   vertical-align: middle;
   text-transform: uppercase;
   margin: auto;
+  border-right: 2px #000000;
 }
 
 .rowhead{
@@ -85,10 +86,6 @@ th, td{
 td{
   border-top: 2px solid #000000;
   padding: 10px;
-}
-
-td:first-child{
-  border-right: 2px #000000;
 }
 
 tr{
