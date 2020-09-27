@@ -81,9 +81,14 @@ tbody{
 th, td{
   text-align: center;
 }
+
 td{
   border-top: 2px solid #000000;
   padding: 10px;
+}
+
+td:first-child{
+  border-right: 2px #000000;
 }
 
 tr{
@@ -102,18 +107,19 @@ tr:nth-child(even){
 
 }
 
-thead tr:first-child th:first-child{
+th:first-child td:first-child{
   border-top-left-radius: 10px;
 }
 
-thead tr:first-child th:last-child{
-  border-top-left-radius: 10px;
+th:first-child td:last-child{
+  border-top-right-radius: 10px;
 }
 
-tfoot tr:last-child td:first-child {
+tr:last-child td:first-child {
   border-bottom-left-radius: 10px;
 }
-tfoot tr:last-child td:last-child {
+
+tr:last-child td:last-child {
   border-bottom-right-radius: 10px;
 }
 
