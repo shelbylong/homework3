@@ -105,7 +105,7 @@ tr:hover{
   color: #417243;
 }
 
-tfoot tr:last-child td:first-child {
+.rowhead:first-child tr:last-child{
   border-bottom-left-radius: 10px;
 }
 
