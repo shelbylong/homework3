@@ -62,11 +62,11 @@ table{
   border: 2px solid #000000;
 }
 
-th:first-child{
+th:first-child td:first-child{
   border-top-left-radius: 10px;
 }
 
-th:last-child{
+th:last-child td:last-child{
   border-top-right-radius: 10px
 }
 
@@ -108,12 +108,13 @@ tr:hover{
 tfoot tr:last-child td:first-child {
   border-bottom-left-radius: 10px;
 }
-tfoot tr:last-child td:last-child {
+
+tr:last-child td:last-child{
   border-bottom-right-radius: 10px;
-} 
+}
 
 footer{
-  position: fixed;
+  position: absolute;
   min-height: 75px;
   width:100%;
   background:#000000;
