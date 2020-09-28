@@ -54,6 +54,10 @@ th:last-child{
   border-top-right-radius: 10px;
 }
 
+tr:nth-child(10) th.rowhead {
+  border-bottom-left-radius: 10px;
+}
+
 th.rowhead{
   border-bottom: 0px solid #000000;
   border-right: 2px solid #000000;
@@ -105,9 +109,7 @@ tr:hover{
   color: #417243;
 }
 
-tbody tr:last-child td:first-child {
-  border-bottom-left-radius: 10px;
-}
+
 tbody tr:last-child td:last-child {
   border-bottom-right-radius: 10px;
 } 
